@@ -4,9 +4,6 @@ const { Menu } = require('./classes/menu')
 const { Rules } = require('./classes/rules')
 const { Help } = require('./classes/help')
 
-//const fs = require('fs');
-//const path = require('path');
-
 let arr = process.argv.slice(2).filter(function(item, pos) {
     return process.argv.slice(2).indexOf(item) == pos;
 })
